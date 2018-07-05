@@ -1,5 +1,6 @@
-> docker compose开发环境编排
-> mongodb, mysql, nginx, php, redis
+#
+
+> docker compose开发环境编排,mongodb, mysql, nginx, php, redis
 
 ## 依赖环境
 
@@ -35,3 +36,6 @@ $ docker-comopse up -d
         |- data redis data存储目录
     |- docker-compose.yml docker compose文件
 ```
+
+## 其他说明
+- php默认开启xdebug,redis,mysqli,pdo_mysql,gd,openssl,SimpleXml,mcrypt,zlib,curl,bz2,ftp等等...
