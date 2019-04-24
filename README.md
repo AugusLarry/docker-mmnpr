@@ -11,7 +11,7 @@
 ```shell
 $ git clone https://github.com/AugusLarry/docker-mmnpr.git
 $ cd docker-mmnpr
-$ docker-comopse up -d
+$ docker-compose up -d
 ```
 
 ## 目录说明
